@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89377D1E1BBB8842006EFF46 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89377D1D1BBB8842006EFF46 /* NotificationCenter.framework */; settings = {ASSET_TAGS = (); }; };
+		89377D221BBB8842006EFF46 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89377D211BBB8842006EFF46 /* TodayViewController.m */; };
+		89377D251BBB8842006EFF46 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89377D231BBB8842006EFF46 /* MainInterface.storyboard */; };
+		89377D291BBB8842006EFF46 /* TadayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89377D1B1BBB8842006EFF46 /* TadayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89377D2E1BBB89F7006EFF46 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 89377D2D1BBB89F7006EFF46 /* 123.png */; settings = {ASSET_TAGS = (); }; };
+		89377D301BBB8AD1006EFF46 /* today.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89377D2F1BBB8AD1006EFF46 /* today.xcassets */; settings = {ASSET_TAGS = (); }; };
+		897986CD1BBA75EB00C2D7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897986CC1BBA75EB00C2D7A0 /* main.m */; };
+		897986D01BBA75EB00C2D7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897986CF1BBA75EB00C2D7A0 /* AppDelegate.m */; };
+		897986D31BBA75EB00C2D7A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897986D21BBA75EB00C2D7A0 /* ViewController.m */; };
+		897986D81BBA75EB00C2D7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897986D71BBA75EB00C2D7A0 /* Assets.xcassets */; };
+		897986DB1BBA75EB00C2D7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897986D91BBA75EB00C2D7A0 /* LaunchScreen.storyboard */; };
+		897986E41BBA7BB300C2D7A0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897986E31BBA7BB200C2D7A0 /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89377D271BBB8842006EFF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897986C01BBA75EB00C2D7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89377D1A1BBB8842006EFF46;
+			remoteInfo = TadayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89377D131BBB82FF006EFF46 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				89377D291BBB8842006EFF46 /* TadayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89377D1B1BBB8842006EFF46 /* TadayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TadayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		89377D1D1BBB8842006EFF46 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		89377D201BBB8842006EFF46 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		89377D211BBB8842006EFF46 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		89377D241BBB8842006EFF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		89377D261BBB8842006EFF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89377D2D1BBB89F7006EFF46 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123.png; path = ../UISearchBarDemo/123.png; sourceTree = "<group>"; };
+		89377D2F1BBB8AD1006EFF46 /* today.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = today.xcassets; sourceTree = "<group>"; };
+		89377D381BBB9052006EFF46 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		89377D391BBB9052006EFF46 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		89377D3A1BBB9052006EFF46 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		89377D3C1BBB9052006EFF46 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		89377D3D1BBB9052006EFF46 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		89377D3F1BBB9052006EFF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89377D411BBB9052006EFF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897986C81BBA75EB00C2D7A0 /* UISearchBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897986CC1BBA75EB00C2D7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		897986CE1BBA75EB00C2D7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		897986CF1BBA75EB00C2D7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		897986D11BBA75EB00C2D7A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		897986D21BBA75EB00C2D7A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		897986D71BBA75EB00C2D7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897986DA1BBA75EB00C2D7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897986DC1BBA75EB00C2D7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897986E21BBA7BB200C2D7A0 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		897986E31BBA7BB200C2D7A0 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89377D181BBB8842006EFF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89377D1E1BBB8842006EFF46 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897986C51BBA75EB00C2D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89377D1C1BBB8842006EFF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89377D1D1BBB8842006EFF46 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89377D1F1BBB8842006EFF46 /* TadayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				89377D2D1BBB89F7006EFF46 /* 123.png */,
+				89377D201BBB8842006EFF46 /* TodayViewController.h */,
+				89377D211BBB8842006EFF46 /* TodayViewController.m */,
+				89377D231BBB8842006EFF46 /* MainInterface.storyboard */,
+				89377D261BBB8842006EFF46 /* Info.plist */,
+				89377D2F1BBB8AD1006EFF46 /* today.xcassets */,
+			);
+			path = TadayExtension;
+			sourceTree = "<group>";
+		};
+		89377D361BBB9052006EFF46 /* UISearchBarDemo WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				89377D391BBB9052006EFF46 /* InterfaceController.h */,
+				89377D3A1BBB9052006EFF46 /* InterfaceController.m */,
+				89377D3C1BBB9052006EFF46 /* NotificationController.h */,
+				89377D3D1BBB9052006EFF46 /* NotificationController.m */,
+				89377D3F1BBB9052006EFF46 /* Assets.xcassets */,
+				89377D411BBB9052006EFF46 /* Info.plist */,
+				89377D371BBB9052006EFF46 /* Supporting Files */,
+			);
+			path = "UISearchBarDemo WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		89377D371BBB9052006EFF46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89377D381BBB9052006EFF46 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		897986BF1BBA75EB00C2D7A0 = {
+			isa = PBXGroup;
+			children = (
+				897986CA1BBA75EB00C2D7A0 /* UISearchBarDemo */,
+				89377D1F1BBB8842006EFF46 /* TadayExtension */,
+				89377D361BBB9052006EFF46 /* UISearchBarDemo WatchKit 1 Extension */,
+				89377D1C1BBB8842006EFF46 /* Frameworks */,
+				897986C91BBA75EB00C2D7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897986C91BBA75EB00C2D7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897986C81BBA75EB00C2D7A0 /* UISearchBarDemo.app */,
+				89377D1B1BBB8842006EFF46 /* TadayExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897986CA1BBA75EB00C2D7A0 /* UISearchBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				897986CE1BBA75EB00C2D7A0 /* AppDelegate.h */,
+				897986CF1BBA75EB00C2D7A0 /* AppDelegate.m */,
+				897986D11BBA75EB00C2D7A0 /* ViewController.h */,
+				897986D21BBA75EB00C2D7A0 /* ViewController.m */,
+				897986D71BBA75EB00C2D7A0 /* Assets.xcassets */,
+				897986D91BBA75EB00C2D7A0 /* LaunchScreen.storyboard */,
+				897986DC1BBA75EB00C2D7A0 /* Info.plist */,
+				897986CB1BBA75EB00C2D7A0 /* Supporting Files */,
+				897986E21BBA7BB200C2D7A0 /* SearchViewController.h */,
+				897986E31BBA7BB200C2D7A0 /* SearchViewController.m */,
+			);
+			path = UISearchBarDemo;
+			sourceTree = "<group>";
+		};
+		897986CB1BBA75EB00C2D7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				897986CC1BBA75EB00C2D7A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89377D1A1BBB8842006EFF46 /* TadayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89377D2A1BBB8842006EFF46 /* Build configuration list for PBXNativeTarget "TadayExtension" */;
+			buildPhases = (
+				89377D171BBB8842006EFF46 /* Sources */,
+				89377D181BBB8842006EFF46 /* Frameworks */,
+				89377D191BBB8842006EFF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TadayExtension;
+			productName = TadayExtension;
+			productReference = 89377D1B1BBB8842006EFF46 /* TadayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		897986C71BBA75EB00C2D7A0 /* UISearchBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897986DF1BBA75EB00C2D7A0 /* Build configuration list for PBXNativeTarget "UISearchBarDemo" */;
+			buildPhases = (
+				897986C41BBA75EB00C2D7A0 /* Sources */,
+				897986C51BBA75EB00C2D7A0 /* Frameworks */,
+				897986C61BBA75EB00C2D7A0 /* Resources */,
+				89377D131BBB82FF006EFF46 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89377D281BBB8842006EFF46 /* PBXTargetDependency */,
+			);
+			name = UISearchBarDemo;
+			productName = UISearchBarDemo;
+			productReference = 897986C81BBA75EB00C2D7A0 /* UISearchBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897986C01BBA75EB00C2D7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "___Shiwei___";
+				TargetAttributes = {
+					89377D1A1BBB8842006EFF46 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					897986C71BBA75EB00C2D7A0 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 897986C31BBA75EB00C2D7A0 /* Build configuration list for PBXProject "UISearchBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897986BF1BBA75EB00C2D7A0;
+			productRefGroup = 897986C91BBA75EB00C2D7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897986C71BBA75EB00C2D7A0 /* UISearchBarDemo */,
+				89377D1A1BBB8842006EFF46 /* TadayExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89377D191BBB8842006EFF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89377D251BBB8842006EFF46 /* MainInterface.storyboard in Resources */,
+				89377D301BBB8AD1006EFF46 /* today.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897986C61BBA75EB00C2D7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897986DB1BBA75EB00C2D7A0 /* LaunchScreen.storyboard in Resources */,
+				897986D81BBA75EB00C2D7A0 /* Assets.xcassets in Resources */,
+				89377D2E1BBB89F7006EFF46 /* 123.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89377D171BBB8842006EFF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89377D221BBB8842006EFF46 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897986C41BBA75EB00C2D7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897986D31BBA75EB00C2D7A0 /* ViewController.m in Sources */,
+				897986D01BBA75EB00C2D7A0 /* AppDelegate.m in Sources */,
+				897986E41BBA7BB300C2D7A0 /* SearchViewController.m in Sources */,
+				897986CD1BBA75EB00C2D7A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89377D281BBB8842006EFF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89377D1A1BBB8842006EFF46 /* TadayExtension */;
+			targetProxy = 89377D271BBB8842006EFF46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89377D231BBB8842006EFF46 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89377D241BBB8842006EFF46 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		897986D91BBA75EB00C2D7A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897986DA1BBA75EB00C2D7A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89377D2B1BBB8842006EFF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TadayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei.UISearchBarDemo.TadayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89377D2C1BBB8842006EFF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TadayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei.UISearchBarDemo.TadayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		897986DD1BBA75EB00C2D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		897986DE1BBA75EB00C2D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897986E01BBA75EB00C2D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei.UISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		897986E11BBA75EB00C2D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei.UISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89377D2A1BBB8842006EFF46 /* Build configuration list for PBXNativeTarget "TadayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89377D2B1BBB8842006EFF46 /* Debug */,
+				89377D2C1BBB8842006EFF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		897986C31BBA75EB00C2D7A0 /* Build configuration list for PBXProject "UISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897986DD1BBA75EB00C2D7A0 /* Debug */,
+				897986DE1BBA75EB00C2D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897986DF1BBA75EB00C2D7A0 /* Build configuration list for PBXNativeTarget "UISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897986E01BBA75EB00C2D7A0 /* Debug */,
+				897986E11BBA75EB00C2D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897986C01BBA75EB00C2D7A0 /* Project object */;
+}
